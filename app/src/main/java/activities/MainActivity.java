@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         // change in branch dev1
 
-
         myWebView.getSettings().setSupportZoom(true);
         myWebView.getSettings().setBuiltInZoomControls(true); // allow pinch to zooom
         myWebView.getSettings().setDisplayZoomControls(false); // disable the default zoom controls on the page
