@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setLoadsImagesAutomatically(true);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setUseWideViewPort(true);
+
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
