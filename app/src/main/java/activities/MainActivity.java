@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
-        myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
 
         myWebView.getSettings().setSupportZoom(true);
