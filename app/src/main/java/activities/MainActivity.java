@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
+        myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+
+
         myWebView.getSettings().setSupportZoom(true);
         myWebView.getSettings().setBuiltInZoomControls(true); // allow pinch to zooom
         myWebView.getSettings().setDisplayZoomControls(false); // disable the default zoom controls on the page
