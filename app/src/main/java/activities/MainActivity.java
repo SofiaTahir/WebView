@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         // change in branch dev1
         //changes
+        //change in dev branch
+        //changing
 
         myWebView.getSettings().setSupportZoom(true);
         myWebView.getSettings().setBuiltInZoomControls(true); // allow pinch to zooom
