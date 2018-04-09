@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
-        //master branch
+        //hello branch
 
         myWebView.getSettings().setSupportZoom(true);
         myWebView.getSettings().setBuiltInZoomControls(true); // allow pinch to zooom
