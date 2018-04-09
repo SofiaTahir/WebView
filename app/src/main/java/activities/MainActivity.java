@@ -34,19 +34,6 @@ public class MainActivity extends AppCompatActivity {
         myWebView.setWebViewClient(new Browser());
     }
 
-    /**
-     * Take care of popping the fragment back stack or finishing the activity
-     * as appropriate.
-     */
-    /*@Override
-    public void onBackPressed() {
-        if(myWebView.canGoBack()){
-            myWebView.goBack();
-        }
-        else {
-            super.onBackPressed();
-        }
-    }*/
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
