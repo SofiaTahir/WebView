@@ -23,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setLoadsImagesAutomatically(true);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setUseWideViewPort(true);
-
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+
+        //change in dev branch
 
         myWebView.getSettings().setSupportZoom(true);
         myWebView.getSettings().setBuiltInZoomControls(true); // allow pinch to zooom
